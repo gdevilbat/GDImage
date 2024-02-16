@@ -1,5 +1,5 @@
 {
-    "name": "delfimov/gdimage",
+    "name": "gdevilbat/gdimage",
     "license": "MIT",
     "type": "library",
     "description": "Easy to use image manipulation tool based on PHP-GD extension",
