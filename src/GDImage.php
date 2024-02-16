@@ -235,7 +235,7 @@ class GDImage
                 break;
         }
 
-        if (empty($this->image) || get_resource_type($this->image) != 'gd') {
+        if (empty($this->image) || get_class($this->image) != 'GdImage') {
             throw new \Exception('Error while reading file ' . $this->src);
         }
 
